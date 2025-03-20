@@ -1,0 +1,32 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.formm{
+margin: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+/* align-items: center;
+
+
+*/
+height: 400px;
+width: 400px;
+font-size: 16px;
+font-weight: 400px;
+}
+label{
+    align-content: start;
+}
+body{
+    /* background-color: red; */
+}
+/* form [input="text"]
+{
+    padding-right: 0;
+    background-color: gold;
+} */

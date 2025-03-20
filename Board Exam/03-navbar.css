@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    height: 40px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-left: 1px solid black;
+
+}
+
+.ll {
+    border-right: 1px solid black;
+
+}
+
+/*
+.left {
+    float: left;
+    border-right: 1px solid black;
+}
+
+.right {
+    float: right;
+    border-left: 1px solid black;
+}
+
+.lborder {
+    border-left: 1px solid black;
+}
+
+.rborder {
+    border-right: 1px solid black;
+}
+
+*/

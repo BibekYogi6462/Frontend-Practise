@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float Example</title>
+    <style>
+      .container {
+        width: 100%;
+        overflow: hidden; /* Clear floats */
+      }
+
+      .logo,
+      .main,
+      .side {
+        float: left;
+        width: 33.33%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .main2 {
+        clear: both; /* Clear floats */
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .content {
+        clear: both; /* Clear floats */
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">Logo</div>
+      <div class="main">Main</div>
+      <div class="side">Side</div>
+    </div>
+
+    <div class="main2">Main2</div>
+
+    <div class="content">Content 1</div>
+    <div class="content">Content 2</div>
+    <div class="content">Content 3</div>
+  </body>
+</html>

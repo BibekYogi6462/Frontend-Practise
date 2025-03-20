@@ -1,0 +1,49 @@
+
+
+table{
+    background-color: lightblue;
+    margin-top: 150px;
+}
+.science:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    
+}
+.math:hover{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+.science2:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
+.math2:hover{
+    background-color: lawngreen;
+    color: black;
+    border: 2px solid black;
+}
+.art:hover{
+    background-color: darkseagreen;
+    color: black;
+    border: 2px solid black;
+}
+.day:hover{
+    border: 2px solid black;
+}
+.hour:hover{
+    background-color: violet;
+    border: 2px solid black;
+    color: black;
+}
+.lunch:hover{
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.project:hover{
+    background-color: azure;
+    
+}

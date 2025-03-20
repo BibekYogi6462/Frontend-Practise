@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    background-color: red;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    /* text-align: left; */
+
+
+}
+
+.Navigation {
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+
+.Header {
+    height: 80px;
+    width: 100%;
+    color: red;
+    background-color: yellow;
+
+}
+
+.Sidebar {
+    width: 30%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: end;
+    float: left;
+
+
+
+
+}
+
+.Body {
+    height: 100px;
+    width: 70%;
+    background-color: black;
+    color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.footer {
+    clear: both;
+    background-color: gold;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .wrapper{
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+
+        .header img{
+            max-width: 100px;
+            height: auto;
+        }
+        .header{
+            /* border-bottom: 1px solid black; */
+            background-color: antiquewhite;
+        }
+
+        nav{
+            text-align: center;
+            padding: 10px 0;
+            /* border: 1px solid black; */
+            background-color: pink;
+
+        }
+        nav a{
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+        }
+
+        .header-banner{
+            text-align: center;
+            background-color: lightblue;
+            padding: 10px 0;
+
+        }
+        .container{
+            /* background-color: pink; */
+            padding: 20px;
+            text-align: center;
+            /* overflow: hidden; */
+        }
+        .categories{
+            width: 30%;
+            float: left;
+            padding: 10px;
+            background-color: cadetblue;
+        }
+        .categories ul li{
+            list-style: none;
+            text-align: left;
+        }
+        .about{
+            float: left;
+            width: 70%;
+
+        }
+        .footer{
+            overflow: hidden;
+            clear: both;
+            background-color: pink;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="../02-images/bibek.png" alt="">
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="header-banner">
+          <h2>My protfolio</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt impedit neque minima. Consequuntur, maiores!</p>
+
+        </div>
+        <div class="container">
+            <div class="categories">
+                <h3>List</h3>
+                <ul>
+                    <li>Web development</li>
+                    <li>Programming</li>
+                    <li>Design</li>
+                    <li>Phtotgraphy</li>
+                </ul>
+            </div>
+
+            <div class="about">
+                <h1>Bibek Yogi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iste inventore, sapiente aliquid modi corporis!</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Bibek, All right Reserved.</p>
+        </div>
+
+
+    </div>
+</body>
+</html>

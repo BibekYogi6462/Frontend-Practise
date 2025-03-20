@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul{
+height: 40px;
+width: 100%;
+background-color: blue;
+list-style-type:none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid yellow;
+
+
+}
+.left{
+    float: left;
+    padding: 10px;
+}
+
+
+.right{
+    float: right;
+    padding: 10px;
+
+}
+.shop{
+    border-left: 1px solid yellow;
+}
+.active{
+    background-color: red;
+    }
+   

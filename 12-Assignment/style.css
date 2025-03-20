@@ -1,0 +1,93 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+.navigation{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    
+}
+.navigation h3{
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+.content{
+    height:250px;
+    width:70%;
+    background-color: crimson;
+    float: left;
+}
+.content h3{
+    font-size: 30px;
+    text-align:center;
+   
+    text-transform: uppercase;
+
+}
+.sidebar{
+    height:500px;
+    width:30%;
+    background-color:pink ;
+    float: right;
+
+}
+.sidebar h3{
+    font-size: 30px;
+    text-align: center;
+    line-height: 500px;
+    text-transform: uppercase;
+
+
+}
+.content2{
+    height:250px;
+    width:70%;
+    background-color: rgb(20, 149, 255);
+    float: left;
+}
+.content2 h3{
+    font-size: 30px;
+    line-height: 250px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-left: 10px;
+    /* position: absolute;
+    left: 0;
+    bottom: 0; */
+
+
+}
+.footer{
+    clear: both;
+    background-color: green;
+    height: 150px;
+}
+.footer h3{
+    font-size: 30px;
+    line-height: 150px;
+    text-transform: uppercase;
+    text-align: end;
+    padding-right: 20px;
+}
+.new{
+    background-color: cyan;
+    color: black;
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+
+}
+.new h3{
+    font-size: 25px;
+    text-transform: uppercase;
+   padding-top: 50px;
+   
+
+}

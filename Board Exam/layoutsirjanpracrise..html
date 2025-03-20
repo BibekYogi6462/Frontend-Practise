@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .wrapper{
+            margin: 0 auto;
+            max-width: 1200px;
+            padding-top: 20px;
+
+        }
+        .header{
+            width: 100%;
+            height: 50px;
+            border: 1px solid black;
+            border-bottom: none;
+            display: flex;
+        }
+        img{
+            max-width: 100px;
+            height: auto;
+            padding-left: 10px;
+        }
+
+        .header h1{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 0 auto;
+           /* text-align: center; */
+        }
+
+        .nav{
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+            border-bottom: none;
+        }
+        ul{
+            /* list-style-type: none; */
+            padding-left: 20px;
+        }
+        .nav h1{
+           display: flex;
+           align-items: center;
+        }
+
+
+        .container{
+            display: flex;
+        
+        }
+
+        .sidebar{
+            width: 30%;
+            /* height: 60px; */
+            border: 1px solid black;
+            border-bottom: none;
+            border-right: none;
+            height: auto;
+        }
+        .sidebar h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .main{
+            width: 40%;
+            height: auto;
+            border: 1px solid black;
+            border-bottom: none;
+            
+        }
+        .main h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .right{
+            width: 30%;
+            border: 1px solid black;
+            
+        }
+
+        .footer{
+            height: 50px;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .footer h1{
+            text-align: center;
+            line-height: 50px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="../02-images/bibek.png" alt="">
+            <h1>Header</h1>
+        </div>
+
+        <div class="nav">
+            <h1>Nav</h1>
+            <ul>
+                <li>hello</li>
+                <li>hi</li>
+                <li>love</li>
+            </ul>
+        </div>
+        
+        <div class="container">
+            <div class="sidebar">
+                <h1>Sidebar</h1>
+            </div>
+            <div class="main">
+                <h1>Main</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni at nisi cumque dolorem quibusdam laborum?</p>
+            </div>
+            <div class="right">
+                <h1>right</h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+
+       
+    </div>
+</body>
+</html>

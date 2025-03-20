@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>HTML form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="submitForm()">
+        <fieldset>
+            <legend>Personal Information</legend>
+       
+         <label for="firstname">First Name:</label>
+         <input type="text" name="firstname" id="firstname" required readonly disabled />
+         <br>
+         <br>
+
+         <label for="lastname"> Last name:</label>
+         <input type="text" name="lastname" id="lastname" />
+         <br><br>
+
+         <label for="age" >Age:</label>
+         <input type="number" name="age" min="1" max="5" />
+         <br><br>
+
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Biography</legend>
+       
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+         <label for="password">Password:</label>
+         <input type="password" name="password" id="password">
+         <br><br>
+
+
+       
+<label for="Provinces">Province:</label>
+         <input list="provinces">
+         <datalist id="provinces">
+            <option value="Bagmati"> Bagmati</option>
+            <option value="Koshi"> Koshi</option>
+            <option value="Gandaki"> Gandaki</option>
+            <option value="Lumbini"> Lumbini</option>
+            <option value="Sudhur Paschim"> Sudhur Paschim</option>
+            <option value="Madesh Pradesh"> Madesh Pradesh</option>
+         </datalist>
+         <br><br>
+
+         <label for="resume">Upload Resume: </label>
+         <input type="file" name="resume" />
+         <br><br>
+
+         <label for="gender">Gender:</label>
+         <input type="radio" name="gender" value="Male" checked/>
+         <label for="">Male</label>
+         <input type="radio" name="gender" value="Female"/>Female
+         <input type="radio" name="gender" value="Others"/>Other
+         <br><br>
+
+         <label for="country"> Country: </label>
+         <select name="country" onchange="Countrychange()">
+            <option value="">Select an option</option>
+            <optgroup label="Asia">
+                <option value="np">Nepal</option>
+            <option value="ind">India</option>
+            <option value="china">China</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="uk">United Kingdom</option>
+            </optgroup>
+            <optgroup label="North America">
+                <option value="us">United State</option>
+
+            </optgroup>
+        </fieldset>
+          
+            
+            
+         </select>
+         <br><br>
+
+         <label for="hobby">Hobby: </label>
+         <input type="checkbox" name="hobby" id-hobby checked> Swimming
+         <input type="checkbox" name="hobby" id-hobby> Singing
+         <input type="checkbox" name="hobby" id-hobby> Dancing
+        <br><br>
+        <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter your story"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit" onsubmit="submit()"><br><br>
+        <input type="reset" value="Reset" onreset="Reset()">
+        <br><br>
+
+
+
+
+        <p id="Formdata"></p>
+
+<script>
+//   function submitForm()
+//   {
+//  alert("Hello Bro, Your form has been submitted");
+//   }
+//   document.getElementById("Formdata").innerHTML = "The form has been submitted";
+
+function Countrychange(){
+alert("Country has been changed");
+document.getElementById("Formdata").innerHTML = "The form has been submitted";
+}
+
+function Reset()
+{
+    alert("Yor form has been reset");
+}
+function submit()
+{
+    alert("Hello");
+}
+</script>
+
+
+         
+
+
+
+    </form>
+<noscript>Your browser doesnot support or disabled Javascript.</noscript>
+    
+</body>
+</html>

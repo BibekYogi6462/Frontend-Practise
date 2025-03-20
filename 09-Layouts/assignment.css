@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: #092635;
+}
+.logo{
+height:85px;
+width: 20%;
+float: left;
+background-color: #C4DFDF;
+
+}
+.logo img{
+    height: 80px;
+   padding-left: 60px;
+}
+
+.header{
+    height: 85px;
+    background-color: #D2E9E9;
+    width: 80%;
+    float: left ;
+   
+}
+.header h1{
+    text-align: center;
+    line-height: 85px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar{
+    height: 50px;
+    background-color: #E3F4F4;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    
+}
+.navbar a{
+    background-color: #BCE6EB;
+    text-decoration: none;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid grey;
+
+}
+.navbar a:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+/* .navbar a:visited{
+
+}
+.navbar a:active{
+
+}
+.navbar a:visited{
+
+}
+.navbar i{ */
+    margin-right: 60px;
+    
+
+
+
+}
+.navbar i:hover{
+    background-color: red;
+    border: 1px solid black;
+}
+
+.left-content{
+    height: 400px;
+    background-color: blue;
+    width: 30%;
+    float: left;
+    background-size: cover;
+    background-image: url(Images/air-jordan-1-low-travis-scott-x-fragment-release-date.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.left-content h3{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    background-color: #BCE6EB;
+    
+}
+.main-content{
+    height: 400px;
+    background-color: crimson;
+    width:30%;
+    float: left;
+    margin-left: 50px;
+
+    background-image: url(Images/Travis\ scot\ jordan\ 6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-content h3{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    background-color: #BCE6EB;
+}
+.right-content{
+    height: 400px;
+    background-color: darkcyan;
+    background-image: url(Images/product-jpeg.jpg);
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.right-content h3{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    background-color: #BCE6EB;
+}
+section{
+    display: flex;
+    height: 500px;
+    background-color: #ECF2FF;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.section2{
+    display: flex;
+    height: 500px;
+    background-color: #ECF2FF;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+.left2-content{
+    height: 400px;
+    width: 30%;
+    float: left;
+   background-image: url(Images/AirJordan1RetroHighOGSPNEXTCHAPTER_800x.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+    
+}
+.left2-content h3{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    background-color: #BCE6EB;
+    
+}
+.main2-content{
+    height: 400px;
+    background-color: crimson;
+    width:30%;
+    float: left;
+    margin-left: 50px;
+
+    background-image: url(Images/air-jordan-4-university-blue-release-date.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main2-content h3{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    background-color: #BCE6EB;
+}
+.right2-content{
+    height: 400px;
+    background-color: darkcyan;
+    background-image: url(Images/https___hypebeast.com_image_2022_11_air-jordan-3-wizards-pe-ct8532-148-release-info-01.avif);
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.right2-content h3{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    background-color: #BCE6EB;
+}
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color: #D2E9E9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+    
+
+}
+.footer h3{
+padding-top: 20px;
+
+    
+}

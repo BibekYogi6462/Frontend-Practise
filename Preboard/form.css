@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+
+
+
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 70%;
+}

@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+body{
+    background-color: azure;
+}
+
+.hover:hover{
+    border: 2px solid black;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.686);
+}
+.navbar
+{
+    background-color: rgba(128, 128, 128, 0.21);/**240 248 255*/
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+a{
+    color: #223434;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700; 
+    transition: color 0.2s ease-in;
+    text-transform: uppercase;
+}
+.heading{
+    background-color: azure;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkslategrey;
+    margin-bottom: 20px;
+
+}
+#News1{
+   margin-bottom: 70px;
+   margin-top:100px;
+   text-align: center;
+   background-color: rgba(95, 158, 160, 0.181);
+   
+
+    
+}
+.heading p{
+    margin-top: 5px;
+}
+#news1 h2{
+ margin-top: 10px;
+ margin-bottom: 20px;
+ text-align: center;
+ text-decoration: underline;
+ color: #223434;
+
+}
+#news1 p{
+    color: #223434;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#img1{
+border: 2px solid rgba(0, 0, 0, 0.111);
+ display: block;
+ margin: 0 auto;
+
+
+
+}
+#News2{
+ 
+        margin-bottom: 70px;
+        margin-top:100px;
+        text-align: center;
+        background-color: rgba(95, 158, 160, 0.181);
+        
+
+}
+
+#img2{
+    border: 2px solid rgba(0, 0, 0, 0.111);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.news2 h2{
+    
+     margin-top: 10px;
+     margin-bottom: 20px;
+     text-align: center;
+ text-decoration: underline;
+color: #223434;
+    }
+    .news2 p{
+        color: #223434;
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+    .news2{
+        margin-bottom: 40px;
+    }
+#News3{
+ 
+        margin-bottom: 70px;
+        margin-top:100px;
+        text-align: center;
+        background-color: rgba(95, 158, 160, 0.181);
+        
+
+}
+
+#img3{
+    border: 2px solid rgba(0, 0, 0, 0.111);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.news3 h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+text-decoration: underline;
+color: #223434;
+
+    }
+    .news3{
+        margin-bottom: 40px;
+    }
+    .news3 p{
+        color: #223434;
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+    .footer{
+        height: 80px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        background-color: azure;
+        margin-bottom: 20px;
+
+
+    }
+   
+
+
+
+
+
+
+
+    #News4{
+ 
+        margin-bottom: 70px;
+        margin-top:100px;
+        text-align: center;
+        background-color: rgba(95, 158, 160, 0.181);
+        
+
+}
+
+#img4{
+    border: 2px solid rgba(0, 0, 0, 0.111);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.news4 h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+text-decoration: underline;
+color: #223434;
+
+    }
+    .news4{
+        margin-bottom: 40px;
+    }
+    .news4 p{
+        color: #223434;
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+
+
+h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+
+
+
+    
+    .footer p{
+font-size: 16px;
+font-weight: 600;
+padding: 10px 10px;
+color: #223434;
+    }
+    .imgbody{
+        margin-top: 15px;
+        background-image: url(pexels-rahul-pandit-2766006.jpg);
+        height: 430px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+
+   

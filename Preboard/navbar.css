@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    height: 40px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    /* padding: 10px; */
+    border-right: 1px solid grey;
+}
+
+.right {
+    float: right;
+    /* padding: 10px; */
+    border-left: 1px solid gray;
+}

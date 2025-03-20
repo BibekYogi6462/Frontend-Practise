@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Layout</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Wrapper for the entire layout */
+        .wrapper {
+            max-width: 1200px; 
+            margin: 0 auto;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Styles for the header row */
+        .header {
+            overflow: hidden; /* Clear floats */
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .contact-info {
+            float: left;
+            width: 70%;
+        
+        }
+
+        .contact-info p {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .social-media {
+            float: right;
+            width: 30%;
+            text-align: right;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 10px;
+        }
+
+        /* Styles for the logo and website name row */
+        .logo-section {
+            overflow: hidden; /* Clear floats */
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            
+        }
+
+        .logo-section img {
+            max-width: 100px; /* Adjust as needed */
+            height: auto;
+        }
+
+        .website-name {
+            margin-left: 20px; /* Adjust gap as needed */
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Styles for the menu row */
+        .menu {
+            overflow: hidden; /* Clear floats */
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        /* Styles for the content row */
+        .content {
+            overflow: hidden; /* Clear floats */
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .content-left {
+            float: left;
+            width: 30%;
+            padding-right: 20px;
+        
+        }
+
+        .content-left h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .content-left ul {
+            /* list-style-type: none; */
+            padding: 0;
+        }
+
+        .content-left ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .content-right {
+            float: left;
+            width: 70%;
+        }
+
+        .content-right img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .content-right p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Styles for the footer row */
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+        }
+
+        .footer p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wrapper for the entire layout -->
+    <div class="wrapper">
+
+        <!-- Header row -->
+        <div class="header">
+            <div class="contact-info">
+                <p>Phone: +123456789</p>
+                <p>Address: 123 Street, City</p>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+
+        <!-- Logo and website name row -->
+        <div class="logo-section">
+            <img src="logo.png" alt="Logo">
+            <div class="website-name">Website Name</div>
+        </div>
+
+        <!-- Menu row -->
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Content row -->
+        <div class="content">
+            <div class="content-left">
+                <h2>Categories</h2>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Programming</li>
+                    <li>Design</li>
+                    <li>Photography</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <img src="image.jpg" alt="Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec efficitur mi. Nullam eget augue vel orci consequat congue eget non justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus condimentum velit in eros lacinia, non lacinia tortor ullamcorper. Nullam posuere urna ut lacus luctus bibendum.</p>
+            </div>
+        </div>
+
+        <!-- Footer row -->
+        <div class="footer">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    background-color:rgba(250, 235, 215, 0.61)
+}
+label{
+    width: 100%;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="number"]{
+    
+    width: 100%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.8);
+}
+
+/* input[type="text"], input[type="number"]:focus{
+border: 1px solid rgb(20, 214, 181);
+} */
+
+input:focus{
+    background-color: #f0f0f0;
+}
+input:hover{
+    border: 1px solid black;
+}
+input[type="submit"],input[type="reset"]{
+    /* background-color: #a2a; */
+    background: radial-gradient(RED,BLUE,ORCHID,YELLOW,PURPLE,ORANGE);
+  
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+background-color: #fff;
+color:#a2a ;
+border: 2px solid black;
+border-radius:5px;
+
+}

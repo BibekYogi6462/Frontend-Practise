@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.phone {
+    height: 60px;
+    width: 60%;
+    float: left;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone span:last-child {
+    margin-right: 30px;
+}
+
+.social {
+    height: 60px;
+    width: 40%;
+    float: left;
+    background-color: skyblue;
+    color: red;
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    clear: both;
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+
+}
+
+.logo span:last-child {
+    margin-left: 180px;
+
+}
+
+.menu {
+    height: 60px;
+    width: 100%;
+    background-color: pink;
+
+
+}
+
+.list {
+    background-color: grey;
+    height: 120px;
+    width: 70%;
+    float: left;
+
+
+}
+
+.right {
+    background-color: rgb(128, 128, 128);
+    height: 120px;
+    width: 30%;
+    float: right;
+}
